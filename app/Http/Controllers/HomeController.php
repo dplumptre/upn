@@ -29,7 +29,10 @@ class HomeController extends Controller
     }
 
 
-
+    public function ad()
+    {
+        return view('home.access-denied');
+    }
 
 
 }

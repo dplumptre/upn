@@ -31,6 +31,8 @@ Auth::routes();
 
 Route::prefix('home')->group(function () {
 
+    Route::get('access-denied', 'HomeController@ad')->name('home.ad');
+
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/users', 'HomeController@users')->name('home.users');
 
