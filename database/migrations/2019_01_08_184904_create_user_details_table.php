@@ -17,6 +17,8 @@ class CreateUserDetailsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('phone')->nullable();
+            $table->string('gender')->nullable();
+            $table->string('dob')->nullable();
             $table->string('city')->nullable();
             $table->mediumText('address')->nullable();
             $table->string('country')->nullable();
