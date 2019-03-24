@@ -29,7 +29,7 @@
     <div class="container">
         <div class="section-title-3 section-shape-hm2-1 text-center mb-100">
             <h2>About <span>Us</span></h2>
-            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br> quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+            <p>The Unity Party of Nigeria (UPN) is a political party that was dominant in western Nigeria during the second republic (1978-1983)</p>
         </div>
         <div class="row align-items-center">
            <div class="col-lg-7 col-md-12">
@@ -42,13 +42,11 @@
             </div>
             <div class="col-lg-5 col-md-12">
                 <div class="about-content-2 pr-70">
-                    <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut voluptatLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercit.</p>
-                    <img src="assets/img/banner/banner-3.jpg" alt="">
-                    <div class="signature mt-30">
-                        <img src="assets/img/icon-img/signature.png" alt="">
-                    </div>
+                    <p>The party is currently headed by Professor Bankole Okuwa who is the National Chairman. And Alhaji Abubakar Abdullahi Sokoto who is the National Secretary of the Party. 
+</p>
+
                     <div class="about-btn mt-45">
-                        <a class="default-btn" href="about-us.html">ABOUT US</a>
+                        <a class="default-btn" href="{{ route('welcome.about')}}">ABOUT US</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +66,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-one count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-1.png" alt="">
+                      
                     </div>
                     <div class="count-content">
                         <h2 class="count">160</h2>
@@ -79,7 +77,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-two count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-2.png" alt="">
+                        
                     </div>
                     <div class="count-content">
                         <h2 class="count">200</h2>
@@ -90,7 +88,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div class="single-count mb-30 count-three count-white">
                     <div class="count-img">
-                        <img src="assets/img/icon-img/funfact-1.png" alt="">
+                     
                     </div>
                     <div class="count-content">
                         <h2 class="count">0</h2>

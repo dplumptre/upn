@@ -13,8 +13,8 @@
                 <div class="col-lg-6 col-md-5 col-12 col-sm-4">
                     <div class="login-register">
                         <ul>
-                            <li><a href="login-register.html">Login</a></li>
-                            <li><a href="login-register.html">Register</a></li>
+                            <li><a href="{{ asset('login')}}">Login</a></li>
+                            <li><a href="{{ asset('register')}}">Register</a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,21 +36,17 @@
                         <div class="main-menu">
                             <nav>
                                 <ul>
-                                    <li><a href="index.html"> HOME </a> </li>
-                                    <li><a href="about-us.html"> ABOUT  </a></li>
-                                    <li><a href="course.html"> EVENT</a></li>
+                                    <li><a href="{{ route('welcome.home')}}"> HOME </a> </li>
+                                    <li><a href="{{ route('welcome.about')}}"> ABOUT  </a></li>
+                                    <li><a href="{{ route('welcome.event')}}"> EVENT</a></li>
 
-                                    <li><a href="index.html"> DOWNLOADS  <i class="fa fa-angle-down"></i>  </a>
+                                    <li><a href="#"> DOWNLOADS  <i class="fa fa-angle-down"></i>  </a>
                                         <ul class="submenu">
-                                            <li><a href="#">MANIFESTO</a></li>
-                                            <li><a href="#">CONSTITUTION</a></li>
+                                            <li><a href="{{ asset('downloads/manifesto.pdf')}}">MANIFESTO</a></li>
+                                            <li><a href="{{ asset('downloads/manifesto.pdf')}}">CONSTITUTION</a></li>
                                         </ul>
                                     </li>
-
-
-
-
-                                    <li><a href="contact.html"> CONTACT </a></li>
+                                    <li><a href="{{ route('welcome.contact')}}"> CONTACT </a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -60,16 +56,16 @@
                 <div class="mobile-menu">
                     <nav id="mobile-menu-active">
                         <ul class="menu-overflow">
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="about-us.html">About</a></li>
-                            <li><a href="shop.html">Event</a></li>
-                            <li><a href="index.html"> DOWNLOADS  <i class="fa fa-angle-down"></i>  </a>
+                            <li><a href="{{ route('welcome.home')}}">HOME</a></li>
+                            <li><a href="{{ route('welcome.about')}}">About</a></li>
+                            <li><a href="{{ route('welcome.event')}}">Event</a></li>
+                            <li><a href="#"> DOWNLOADS  <i class="fa fa-angle-down"></i>  </a>
                                         <ul class="submenu">
                                             <li><a href="#">Manifesto</a></li>
                                             <li><a href="#">Constitution</a></li>
                                         </ul>
                                     </li>
-                             <li><a href="contact.html">Contact</a></li>
+                             <li><a href="{{ route('welcome.contact')}}">Contact</a></li>
                         </ul>
                     </nav>
                 </div>

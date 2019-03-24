@@ -32,8 +32,9 @@ Auth::routes();
 
 
     Route::get('/', 'WelcomeController@index')->name('welcome.home');
-
-
+    Route::get('about', 'WelcomeController@about')->name('welcome.about');
+    Route::get('event', 'WelcomeController@event')->name('welcome.event');
+    Route::get('contact', 'WelcomeController@contact')->name('welcome.contact');
 
 
 
